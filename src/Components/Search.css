@@ -1,0 +1,35 @@
+.search-container{
+    width: 550px;
+    height: 45px;
+    background-color: white;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+.search-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+.search-input{
+    font-family: Roboto, 'sans-serif';
+    font-weight: bold;
+    width: 100%;
+    border-style: none;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.icon-search{
+    margin-left: 10px;
+}
+
+.icon-micro{
+    margin-right: 10px;
+}

@@ -1,0 +1,62 @@
+.header-container{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+.header-items{
+    width: 280px;
+    padding: 0;
+    margin-left: 82vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-item{
+    font-weight: 100;
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: Roboto, 'sans-serif';
+    padding: 0;
+}
+
+.header-item:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.account-circle{
+    background-color: rgb(255, 115, 50);
+    margin-top: 12px;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-circle:hover{
+    cursor: pointer;
+}
+.account-circle h1 {
+    margin-bottom: 25%;
+    font-family: Roboto, 'sans-serif';
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+}
+
+
+.icon{
+    margin-left: 20px;
+    margin-top: 25px;
+    color: white;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
